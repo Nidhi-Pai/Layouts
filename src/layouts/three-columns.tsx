@@ -9,13 +9,13 @@ export interface Props {
   columnThree: React.ReactElement;
 }
 
-const TwoColsLayoutThemeWrapper: React.FC<Props> = (props) => (
+const ThreeColsLayoutThemeWrapper: React.FC<Props> = (props) => (
   <ThemeProvider theme={theme}>
-    <TwoColsLayout {...props} />
+    <ThreeColsLayout {...props} />
   </ThemeProvider>
 );
 
-const TwoColsLayout: React.FC<Props> = (props) => {
+const ThreeColsLayout: React.FC<Props> = (props) => {
   const styles = useStyles();
 
   return (
@@ -27,4 +27,4 @@ const TwoColsLayout: React.FC<Props> = (props) => {
   );
 };
 
-export default TwoColsLayoutThemeWrapper;
+export default ThreeColsLayoutThemeWrapper;
