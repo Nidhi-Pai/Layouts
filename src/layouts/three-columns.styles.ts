@@ -17,14 +17,14 @@ export default createUseStyles((theme: ITheme) => ({
   },
   secondColumn: {
     minWidth:"650px",
-    color: theme.black.accent1,
+    color: theme.white.accent1,
     backgroundColor: theme.palette.shade2,
     padding:"25px 45px 25px 45px",
     marginRight: "auto",
   },
   thirdColumn: {
     minWidth:"650px",
-    color: theme.white.accent1,
+    color: theme.black.accent1,
     backgroundColor: theme.palette.shade6,
     padding:"25px 45px 25px 45px",
     marginRight: "auto",
